@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		.pan-btn {
+			font-size: 14px;
+			color: #fff;
+			padding: 14px 36px;
+			border-radius: 8px;
+			border: none;
+			outline: none;
+			margin-right: 25px;
+			-webkit-transition: 600ms ease all;
+			transition: 600ms ease all;
+			position: relative;
+			display: inline-block;
+		}
+		
+		.light-blue-btn {
+			background: #3A71A8;
+		}
+		
+		.pan-btn:before,
+		.pan-btn:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: 2px;
+			width: 0;
+			-webkit-transition: 400ms ease all;
+			transition: 400ms ease all;
+		}
+		
+		.pan-btn::after {
+			right: inherit;
+			top: inherit;
+			left: 0;
+			bottom: 0;
+		}
+		
+		.pan-btn::before {
+			right: inherit;
+			top: inherit;
+			left: 0;
+			top: 0;
+		}
+		
+		.pan-btn:hover {
+			background: #fff;
+		}
+		
+		.light-blue-btn:hover {
+			color: #3A71A8;
+		}
+		
+		.pan-btn:hover:before,
+		.pan-btn:hover:after {
+			width: 100%;
+			-webkit-transition: 600ms ease all;
+			transition: 600ms ease all;
+		}
+		
+		a,
+		a:focus,
+		a:hover {
+			cursor: pointer;
+			color: inherit;
+			text-decoration: none;
+			background: #324157;
+		}
+		
+		.light-blue-btn:hover:before,
+		.light-blue-btn:hover:after {
+			background: #E65D6E;
+		}
+	</style>
+
+	<body>
+		<a class="pan-btn light-blue-btn">Charts</a>
+		<a class="pan-btn light-blue-btn">Charts</a>
+	</body>
+
+</html>
