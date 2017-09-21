@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>ddd</title>
 	</head>
 	<style>
-		.pan-btn {
+		a {
 			font-size: 14px;
 			color: #fff;
 			padding: 14px 36px;
@@ -18,14 +17,11 @@
 			transition: 600ms ease all;
 			position: relative;
 			display: inline-block;
-		}
-		
-		.light-blue-btn {
 			background: #3A71A8;
 		}
 		
-		.pan-btn:before,
-		.pan-btn:after {
+		a:before,
+		a:after {
 			content: '';
 			position: absolute;
 			top: 0;
@@ -36,53 +32,32 @@
 			transition: 400ms ease all;
 		}
 		
-		.pan-btn::after {
+		a::after {
 			right: inherit;
 			top: inherit;
 			left: 0;
 			bottom: 0;
 		}
 		
-		.pan-btn::before {
-			right: inherit;
-			top: inherit;
-			left: 0;
-			top: 0;
-		}
-		
-		.pan-btn:hover {
+		a:hover {
 			background: #fff;
-		}
-		
-		.light-blue-btn:hover {
 			color: #3A71A8;
 		}
 		
-		.pan-btn:hover:before,
-		.pan-btn:hover:after {
+		a:hover:before,
+		a:hover:after {
 			width: 100%;
 			-webkit-transition: 600ms ease all;
 			transition: 600ms ease all;
-		}
-		
-		a,
-		a:focus,
-		a:hover {
-			cursor: pointer;
-			color: inherit;
-			text-decoration: none;
-			background: #324157;
-		}
-		
-		.light-blue-btn:hover:before,
-		.light-blue-btn:hover:after {
-			background: #E65D6E;
+			background: #3A71A8;
 		}
 	</style>
 
 	<body>
-		<a class="pan-btn light-blue-btn">Charts</a>
-		<a class="pan-btn light-blue-btn">Charts</a>
+		<div style="margin:400px">
+			<a>试试</a>
+			<a>试试</a>
+		</div>
 	</body>
 
 </html>
