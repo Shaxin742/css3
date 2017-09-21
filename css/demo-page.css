@@ -1,0 +1,38 @@
+﻿/*
+ * Hover.css - Demo Page
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+
+ * Made available under a MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+
+ * Hover.css Copyright Ian Lunn 2014.
+ */
+
+body {
+  
+ 
+  padding: 20px;
+  font-family: sans-serif;
+  color: #333;
+  line-height: 140%;
+}
+
+img {
+  border: none;
+}
+#effects {
+  margin-top: 5em;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+}
+
+h2 {
+  margin-top: 2em;
+}
